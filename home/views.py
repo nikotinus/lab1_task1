@@ -21,3 +21,13 @@ class ContactPageView(View):
 class LoansPageView(View):
     def get(self, request):
         return render(request, 'loans.html')
+
+
+class ElementPageView(View):
+    def get(self, request):
+        return render(request, 'elements.html')
+
+
+class NewsPageView(View):
+    def get(self, request):
+        return render(request, 'news.html')
