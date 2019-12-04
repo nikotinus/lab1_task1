@@ -72,11 +72,12 @@
 					<div class="hs-text">
 						<h2>Looking for a same day loan?</h2>
 						<p>Donec eget efficitur ex. Donec eget dolor vitae eros feugiat tristique id vitae massa. Proin vulputate congue rutrum. Fusce lobortis a enim eget tempus. Class aptent taciti sociosqu ad litora torquent per conubia.</p>
-						<a href="#" class="site-btn sb-dark">Find out more</a>
+						<a href="{% url 'about' %}" class="site-btn sb-dark">Find out more</a>
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<form class="hero-form">
+					<form action="." class="hero-form" method="post">
+						{% csrf_token %}
 						<input type="text" placeholder="Your Name">
 						<input type="text" placeholder="Your E-mail">
 						<input type="text" placeholder="Your Phone">
@@ -136,7 +137,7 @@
 				</div>
 			</div>
 			<div class="text-center pt-3">
-				<a href="#" class="site-btn sb-big">Apply Now!</a>
+				<a href="{% url 'home'}" class="site-btn sb-big">Apply Now!</a>
 			</div>
 		</div>
 	</section>
@@ -148,7 +149,7 @@
 		<div class="container">
 			<h2>Already have a <strong>L2Go</strong> Bank Loan?</h2>
 			<h5>If you're thinking about borrowing more, we're here to help.</h5>
-			<a href="#" class="site-btn sb-dark sb-big">Find out More</a>
+			<a href={% url 'about' %} class="site-btn sb-dark sb-big">Find out More</a>
 		</div>
 	</section>
 	<!-- CTA Section end -->

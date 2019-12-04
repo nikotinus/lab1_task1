@@ -125,7 +125,8 @@
 				</div>
 				<div class="col-lg-4 col-md-6 sidebar">
 					<div class="sb-widget">
-						<form class="search-form">
+						<form action="" class="search-form" method="post">
+							{% csrf_token %}
 							<input type="text" placeholder="">
 							<button><img src={% static "img/search-icon.png" %} alt=""></button>
 						</form>

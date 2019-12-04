@@ -101,7 +101,8 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="contact-form">
+					<form action="" class="contact-form" method='post'>
+						{% csrf_token %}
 						<div class="row">
 							<div class="col-md-6">
 								<input type="text" placeholder="Your Name">
