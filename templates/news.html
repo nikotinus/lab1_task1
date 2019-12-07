@@ -1,4 +1,4 @@
-{% load static %}
+"{% load static %}"
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -9,20 +9,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Favicon -->
-	<link href={% static "img/favicon.ico" rel="shortcut icon" %}/>
+	<link href="{% static "img/favicon.ico" rel="shortcut icon" %}"/>
 
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href={% static "css/bootstrap.min.css" %}/>
-	<link rel="stylesheet" href={% static "css/font-awesome.min.css" %}/>
-	<link rel="stylesheet" href={% static "css/owl.carousel.min.css" %}/>
-	<link rel="stylesheet" href={% static "css/flaticon.css" %}/>
-	<link rel="stylesheet" href={% static "css/slicknav.min.css" %}/>
+	<link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}"/>
+	<link rel="stylesheet" href="{% static "css/font-awesome.min.css" %}"/>
+	<link rel="stylesheet" href="{% static "css/owl.carousel.min.css" %}"/>
+	<link rel="stylesheet" href="{% static "css/flaticon.css" %}"/>
+	<link rel="stylesheet" href="{% static "css/slicknav.min.css" %}"/>
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href={% static "css/style.css" %}/>
+	<link rel="stylesheet" href="{% static "css/style.css" %}"/>
 
 
 	<!--[if lt IE 9]>
@@ -40,7 +40,7 @@
 	<!-- Header Section -->
 	<header class="header-section">
 		<a href="index.html" class="site-logo">
-			<img src={% static "img/logo.png" %} alt="">
+			<img src="{% static "img/logo.png" %}" alt="">
 		</a>
 		<nav class="header-nav">
 			<ul class="main-menu">
@@ -65,7 +65,7 @@
 	<!-- Header Section end -->
 
 	<!-- Page top Section end -->
-	<section class="page-top-section set-bg" data-setbg={% static "img/page-top-bg/3.jpg" %}>
+	<section class="page-top-section set-bg" data-setbg="{% static "img/page-top-bg/3.jpg" %}">
 		<div class="container">
 			<h2>News</h2>
 			<nav class="site-breadcrumb">
@@ -82,7 +82,7 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="blog-post">
-						<img src={% static "img/news/1.jpg" %} alt="">
+						<img src="{% static "img/news/1.jpg" %}" alt="">
 						<div class="blog-date">Apr 08, 2019</div>
 						<h2 class="blog-title">How to apply for a good loan</h2>
 						<div class="blog-metas">
@@ -91,10 +91,10 @@
 							<div class="blog-meta"> 3 comments</div>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.</p>
-						<a href="#" class="readmore">Read More <img src={% static "img/arrow.png" %} alt=""></a>
+						<a href="#" class="readmore">Read More <img src="{% static "img/arrow.png" %}" alt=""></a>
 					</div>
 					<div class="blog-post">
-						<img src={% static "img/news/2.jpg" %} alt="">
+						<img src="{% static "img/news/2.jpg" %}" alt="">
 						<div class="blog-date">Apr 08, 2019</div>
 						<h2 class="blog-title">Tips to improve your credit rate</h2>
 						<div class="blog-metas">
@@ -103,10 +103,10 @@
 							<div class="blog-meta"> 3 comments</div>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.</p>
-						<a href="#" class="readmore">Read More <img src={% static "img/arrow.png" %} alt=""></a>
+						<a href="#" class="readmore">Read More <img src="{% static "img/arrow.png" %}" alt=""></a>
 					</div>
 					<div class="blog-post">
-						<img src={% static "img/news/3.jpg" %} alt="">
+						<img src="{% static "img/news/3.jpg" %}" alt="">
 						<div class="blog-date">Apr 08, 2019</div>
 						<h2 class="blog-title">10 ideas to spend your holliday </h2>
 						<div class="blog-metas">
@@ -115,7 +115,7 @@
 							<div class="blog-meta"> 3 comments</div>
 						</div>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem por incididunt ut labore et dolore mag na aliqua.  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti.</p>
-						<a href="#" class="readmore">Read More <img src={% static "img/arrow.png" %} alt=""></a>
+						<a href="#" class="readmore">Read More <img src="{% static "img/arrow.png" %}" alt=""></a>
 					</div>
 					<div class="site-pagination">
 						<a href="#" class="active">01.</a>
@@ -128,7 +128,7 @@
 						<form action="" class="search-form" method="post">
 							{% csrf_token %}
 							<input type="text" placeholder="">
-							<button><img src={% static "img/search-icon.png" %} alt=""></button>
+							<button><img src="{% static "img/search-icon.png" %}" alt=""></button>
 						</form>
 					</div>
 					<div class="sb-widget">
@@ -174,7 +174,7 @@
 	<!-- Blog Section end -->
 
 	<!-- Score Section end -->
-	<section class="score-section text-white set-bg" data-setbg={% static "img/score-bg.jpg" %}>
+	<section class="score-section text-white set-bg" data-setbg="{% static "img/score-bg.jpg" %}">
 		<div class="container">
 			<div class="row">
 				<div class="col-xl-6 col-lg-8">
@@ -183,7 +183,7 @@
 					<a href="#" class="site-btn sb-big">show my score</a>
 				</div>
 			</div>
-			<img src={% static "img/hand.png" %} alt="" class="hand-img">
+			<img src="{% static "img/hand.png" %}" alt="" class="hand-img">
 		</div>
 	</section>
 	<!-- Score Section end -->
@@ -192,7 +192,7 @@
 	<footer class="footer-section">
 		<div class="container">
 			<a href="index.html" class="footer-logo">
-				<img src={% static "img/logo.png" %} alt="">
+				<img src="{% static "img/logo.png" %}" alt="">
 			</a>
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
@@ -255,12 +255,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<!-- Footer Section end -->
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src={% static "js/jquery-3.2.1.min.js" %}></script>
-	<script src={% static "js/bootstrap.min.js" %}></script>
-	<script src={% static "js/jquery.slicknav.min.js" %}></script>
-	<script src={% static "js/owl.carousel.min.js" %}></script>
-	<script src={% static "js/jquery-ui.min.js" %}></script>
-	<script src={% static "js/main.js" %}></script>
+	<script src="{% static "js/jquery-3.2.1.min.js" %}"></script>
+	<script src="{% static "js/bootstrap.min.js" %}"></script>
+	<script src="{% static "js/jquery.slicknav.min.js" %}"></script>
+	<script src="{% static "js/owl.carousel.min.js" %}"></script>
+	<script src="{% static "js/jquery-ui.min.js" %}"></script>
+	<script src="{% static "js/main.js" %}"></script>
 
 
 

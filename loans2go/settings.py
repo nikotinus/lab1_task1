@@ -25,7 +25,9 @@ SECRET_KEY = '8bot$$ol$z%_phz$t%#e#^1cb$bah#v-+79^%j9xt&hz0hmdzy'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['alexser.pythonanywhere.com',
+                 '127.0.0.1',
+                 ]
 
 
 # Application definition
